@@ -17,7 +17,7 @@ input[type="search"] {
     border: 1px solid transparent;
     border-radius: inherit;
     width: 100%;
-    background-color: white;
+    background-color: #cbd5e1;
 }
 
 input[type="search"]::placeholder {
