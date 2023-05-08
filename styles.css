@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 6fr;
+}
+
+.sidebar {
+    display: grid;
+    width: 100%;
+    grid-row: span 2;
+    margin: 0 auto;
+    background-color: #2563eb;
+    color: #eff6ff;
+}
+
+.header {
+    display: grid;
+    background-color: #a5b4fc;
+}
+
+ul {
+    display: flex;
+    align-items: space-evenly;
+    flex-direction: column;
+}
+
+.part-1, .part-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.sidebar ul {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.cards {
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #c7d2fe;
+}
